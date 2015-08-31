@@ -1,0 +1,102 @@
+
+material AC3D/move_gizmo/Mat017_NoTex
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.2 0.2 0.2 0.51
+			diffuse 1 1 0 0.51
+			specular 0.2 0.2 0.2 0.51 128
+			emissive 1 1 0 0.51
+			scene_blend alpha_blend
+			cull_hardware none
+			cull_software none
+		}
+	}
+}
+
+material AC3D/move_gizmo/Mat015_NoTex
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.2 0.2 0.2 0.498
+			diffuse 0 1 1 0.498
+			specular 0.2 0.2 0.2 0.498 128
+			emissive 0 1 1 0.498
+			scene_blend alpha_blend
+			cull_hardware none
+			cull_software none
+		}
+	}
+}
+
+material AC3D/move_gizmo/Mat016_NoTex
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.2 0.2 0.2 0.498
+			diffuse 1 0 1 0.498
+			specular 0.2 0.2 0.2 0.498 128
+			emissive 1 0 1 0.498
+			scene_blend alpha_blend
+			cull_hardware none
+			cull_software none
+		}
+	}
+}
+
+material AC3D/move_gizmo/Mat019_NoTex
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.2 0.2 0.2 0.49
+			diffuse 0 1 0 0.49
+			specular 0.2 0.2 0.2 0.49 128
+			emissive 0 1 0 0.49
+			scene_blend alpha_blend
+			cull_hardware none
+			cull_software none
+		}
+	}
+}
+
+material AC3D/move_gizmo/Mat020_NoTex
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.2 0.2 0.2 0.502
+			diffuse 0 0 1 0.502
+			specular 0.2 0.2 0.2 0.502 128
+			emissive 0 0 1 0.502
+			scene_blend alpha_blend
+			cull_hardware none
+			cull_software none
+		}
+	}
+}
+
+material AC3D/move_gizmo/Mat018_NoTex
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.2 0.2 0.2 0.498
+			diffuse 1 0 0 0.498
+			specular 0.2 0.2 0.2 0.498 128
+			emissive 1 0 0 0.498
+			scene_blend alpha_blend
+			cull_hardware none
+			cull_software none
+		}
+	}
+}

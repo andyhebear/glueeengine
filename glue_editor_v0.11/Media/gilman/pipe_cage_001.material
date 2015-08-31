@@ -1,0 +1,20 @@
+
+material AC3D/pipe_cage_001/Mat017_Tex02
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.8 0.8 0.8 1
+			specular 1 1 1 1 128
+			alpha_rejection greater 0
+
+			texture_unit
+			{
+				texture pipe_cage_001_tex.png 2147483647
+			}
+		}
+
+	}
+
+}

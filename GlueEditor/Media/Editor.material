@@ -1,0 +1,48 @@
+material Editor/SelectionBox
+{
+	technique
+	{
+		pass
+		{
+			depth_write off
+			depth_check off
+			point_size 6
+			lighting off
+			
+			// colour controlled in code
+			texture_unit
+			{
+				texture stipple_001.png
+				filtering none
+			}
+		} 
+	}
+}
+
+material Editor/Grid
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			lighting off
+			depth_bias 1
+
+			// colour controlled in code
+		}
+	}
+}
+
+material Editor/Block
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+
+			// colour controlled in code
+		} 
+	}
+}

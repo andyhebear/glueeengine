@@ -1,0 +1,6 @@
+BlockCount:1
+Block:-6 0 -7,4 1 5
+WorldEntity|Position|Orientation
+PipeCage|-4 1 -1|1 0 0 0
+TrafficCone|-1.75 1.5 2|1 0 0 0
+FlowerPot|0.5 1 -2|1 0 0 0

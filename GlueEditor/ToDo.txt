@@ -1,0 +1,37 @@
+﻿***************************************************
+	TO DO
+***************************************************
+- Selection Box
+	- Restrict minimum size when resizing
+	- Add in corner mouse grips
+	- Fix mouse grip visibility per viewport
+	- Fix mouse cursor feedback per viewport
+	- Hide mouse grips during new box creation
+	- Show box size somewhere
+	
+- Block
+	- Texture alignment
+	- Edit existing block
+
+***************************************************
+	DONE
+***************************************************
+- Multiple viewports
+- Grid system
+- Wireframe / textured
+- Splitter
+
+***************************************************
+	LEGACY IDEAS
+***************************************************
+- Material tool
+- Texture browser
+- Group / Block / Face mode
+- Cut tool
+- Grouping
+- Tree structure
+- Entity tool
+- Prefab
+- Instance vs game object
+- Texture alignment / snapping
+- Texture cloning

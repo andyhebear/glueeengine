@@ -1,0 +1,19 @@
+
+material AC3D/traffic_cone_001/Mat016_Tex01
+{
+	technique
+	{
+		pass
+		{
+			specular 1 1 1 1 128
+			alpha_rejection greater 0
+
+			texture_unit
+			{
+				texture traffic_cone_tex.png 2147483647
+			}
+		}
+
+	}
+
+}

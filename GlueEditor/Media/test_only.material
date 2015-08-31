@@ -1,0 +1,45 @@
+material floor
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture storecarpet.png
+                filtering trilinear
+            }            
+        }
+    }
+}
+
+material wall
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture office_wall.png
+                filtering trilinear
+            }            
+        }
+    }
+}
+
+material roof
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture office_ceiling.png
+                filtering trilinear
+            }            
+        }
+    }
+}
+

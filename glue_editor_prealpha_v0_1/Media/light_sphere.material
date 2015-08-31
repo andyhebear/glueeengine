@@ -1,0 +1,11 @@
+
+material AC3D/light_sphere/Mat001_NoTex
+{
+	technique
+	{
+		pass
+		{
+			emissive 1 1 1 1
+		}
+	}
+}

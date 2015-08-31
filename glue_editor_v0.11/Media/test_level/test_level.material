@@ -1,0 +1,68 @@
+material test_level/LightMapped0
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture Ceiling_1.jpg
+                filtering trilinear
+            }
+            texture_unit
+            {
+                texture test_level_LightMap0.bmp
+                colour_op modulate
+                tex_coord_set 1
+                tex_address_mode clamp
+                filtering linear linear none
+            }
+        }
+    }
+}
+
+material test_level/LightMapped1
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture Wall07.jpg
+                filtering trilinear
+            }
+            texture_unit
+            {
+                texture test_level_LightMap0.bmp
+                colour_op modulate
+                tex_coord_set 1
+                tex_address_mode clamp
+                filtering linear linear none
+            }
+        }
+    }
+}
+
+material test_level/LightMapped2
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture HightechWall06.jpg
+                filtering trilinear
+            }
+            texture_unit
+            {
+                texture test_level_LightMap0.bmp
+                colour_op modulate
+                tex_coord_set 1
+                tex_address_mode clamp
+                filtering linear linear none
+            }
+        }
+    }
+}

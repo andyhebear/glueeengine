@@ -1,0 +1,20 @@
+
+material AC3D/pot_001/Mat037_Tex25
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.752941 0.752941 0.752941 1
+			specular 1 1 1 1 128
+			alpha_rejection greater 0
+
+			texture_unit
+			{
+				texture pot_001_tex.png 2147483647
+			}
+		}
+
+	}
+
+}

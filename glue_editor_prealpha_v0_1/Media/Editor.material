@@ -1,0 +1,104 @@
+
+material Editor/FocusedSurface
+{
+	technique
+	{
+		pass
+		{
+			depth_bias 1
+			depth_write off
+			scene_blend alpha_blend
+		
+			ambient 0 0 0
+			diffuse 0 1 0 0.25
+			specular 0 0 0 0.25 128
+			emissive 0 1 0 0.25
+			
+			cull_hardware none
+			cull_software none			
+			
+			texture_unit
+			{
+				texture white_check.png
+				alpha_op_ex modulate src_manual src_texture 0.25
+			}
+		}
+	}
+}
+
+material Editor/SelectedSurface
+{
+	technique
+	{
+		pass
+		{
+			depth_bias 1
+			depth_write off
+			scene_blend alpha_blend
+		
+			ambient 0 0 0
+			diffuse 1 0 0 0.25
+			specular 0 0 0 0.25 128
+			emissive 1 0 0 0.25
+			
+			cull_hardware none
+			cull_software none		
+			
+			texture_unit
+			{
+				texture white_check.png
+				alpha_op_ex modulate src_manual src_texture 0.25
+			}	
+		}
+	}
+}
+
+material Editor/SelectionBox
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			depth_write off
+			depth_check off
+			point_size 5
+			lighting off
+						
+			texture_unit
+			{
+				texture stipple_001.png
+				alpha_op_ex modulate src_manual src_texture 0.5
+			}
+		} 
+	}
+}
+
+material Editor/Grid
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			lighting off
+			depth_bias 1
+
+			// colour controlled in code
+		}
+	}
+}
+
+material Editor/DevTexture
+{
+	technique
+	{
+		pass
+		{
+			texture_unit			
+			{
+				texture dev_texture.png
+			}
+		} 
+	}
+}

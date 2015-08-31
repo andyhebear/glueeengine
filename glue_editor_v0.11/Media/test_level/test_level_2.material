@@ -1,0 +1,29 @@
+material test_level/Wall06
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture Wall06.jpg
+                filtering trilinear
+            }
+        }
+    }
+}
+
+material test_level/Wall10
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture Wall10.jpg
+                filtering trilinear
+            }
+        }
+    }
+}
